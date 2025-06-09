@@ -2,7 +2,7 @@ Contesto:
 Il seguente sito illustra l'idea di un corso online per arredare i bunker sotterranei.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 La cartella è suddivisa nel seguente modo:
--Storia(questo file)
+-Readme(questo file)
 -Index(html)
 -Style(Css)
 -Audio
