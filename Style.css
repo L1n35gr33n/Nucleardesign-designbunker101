@@ -1,0 +1,110 @@
+﻿body {
+	background-color: #58bf8a;
+}
+
+h1 {
+	background-color: #129476;
+	color: #000000;
+}
+
+h3 {
+	background-color: #006666;
+	color: #000000;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  cursor: pointer;  outline: none;
+}
+
+.centrato {
+	text-align: center;
+}
+
+.note {
+	text-align:center;
+	font-size: 10px;	
+}
+
+.bottone {
+	background-color: #dba321;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	text-align:Center;
+	height:100px;
+	width:600px;
+	justify-content: center; 
+	align-items: center;
+}
+	
+.scritteSX {
+	text-align: left;
+ 	margin: 0 auto;
+ 	padding: 20px;
+	line-height: 1.6;
+	flex: 1;
+	min-width:45%;
+	background:
+	display: inline-block;
+}
+
+.scritteDX {
+	text-align: right;
+ 	margin: 0 auto;
+ 	padding: 20px;
+	line-height: 1.6;
+	flex: 1;
+	min-width:45%;
+	background:
+	display: inline-block;
+}
+
+.contenitore-scritte {
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px auto;
+	max-width: 1200px;
+}
+
+.riga {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.descrizione {
+	background-color: #00994C;
+}
+
+.cimp {
+	background-color: #059c6e;
+}
+
+.acrv {
+	background-color: #2eab98;
+}
+.gratis {
+	background-color: #FF6600;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	text-align:Center;
+	height:100px;
+	width:600px;
+	justify-content: center; 
+	align-items: center;
+	
+}

@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Sito forse ufficiale-design nucleare</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="backgroundMusic" loop style="display:none;">
+  <source src="Audio/Waiting sogn.mp3" type="audio/mpeg">
+</audio>
+
+<img src="Image/Logo.png" alt="Logo" width="100" height="100"><div class="centrato">
+	<h1>NUCLEAR DESIGN</h1>
+	<h3>Design bunker 101</h3>
+
+
+	<img src="Image/Immagine1.jpg" alt="Immagine1" width="400" height="300"><img src="Image/Immagine2.jpg" alt="Immagine2" width="400" height="300">  <img src="Image/Immagine3.jpg" alt="Immagine3" width="400" height="300">
+	<p class="descrizione">Descrizione:</p>
+	<p class="descrizione"> "Nuclear Design – Design Bunker 101” è un corso pensato per chi vuole imparare a trasformare un bunker (quel tipico spazio chiuso e senza finestre) in un ambiente funzionale, accogliente e con un tocco di design.</p>
+</div>
+<div class="contenitore-scritte">
+	<div class="riga">
+        	<p class="scritteSX cimp">Cosa imparerai:</p>
+        	<p class="scritteDX acrv">A chi è rivolto:</p>
+    	</div>
+	<div class="riga">
+		<li class="scritteSX cimp">Scelta di materiali resistenti ma anche belli da vedere</li>
+		<li class="scritteDX acrv">A studenti curiosi di design e architettura</li>
+	</div>
+	<div class="riga">
+		<li class="scritteSX cimp">Organizzazione intelligente degli spazi piccoli</li>
+		<li class="scritteDX acrv">A chi vuole imparare a lavorare con spazi particolari</li>
+	</div>
+	<div class="riga">
+		<li class="scritteSX cimp">Idee per creare un’atmosfera confortevole anche nel “sotto terra”</li>
+		<li class="scritteDX acrv">A chi crede che anche un bunker possa avere il suo fascino!</li>
+	</div>
+</div>
+<div class="centrato">
+	<p>Cosa aspetti?</p>
+	<a class="bottone" href="https://youtu.be/OBQE_TNI7zw">ABBONATI ORA!</a>
+	<p>La prima lezione è gratuita!</p>
+	<button class="gratis" id="playMusicButton">SCARICALA ORA!</button>
+	<p>(Il download potrebbe metterci un po')</p>
+	<p>(si prega di attendere)</p>
+</div>
+<div class="note">
+	<p>Versione: 1.0.0</p>
+	<p>©Funzionare</p>
+	<p>(by Niki Uguccioni & Matteo Bellucci)</p>
+</div>
+<script>
+    const backgroundMusic = document.getElementById('backgroundMusic');
+    const playMusicButton = document.getElementById('playMusicButton');
+
+    if (playMusicButton) { // Assicurati che il bottone esista
+        playMusicButton.addEventListener('click', () => {
+            backgroundMusic.play()
+                .then(() => {
+                    console.log("Musica avviata con successo!");                 
+                })
+                .catch(error => {
+                    console.error("Errore nell'avviare la musica:", error);
+                    alert("Il browser ha bloccato la riproduzione automatica. Clicca di nuovo o controlla le impostazioni.");
+                });
+        });
+    }
+</script>
+</body>
+</html>
